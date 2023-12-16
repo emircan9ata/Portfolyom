@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.launge{
+
+    right: -825px;
+
+    list-style: none;
+}
+
+.back-img img{
+    width: 100%;
+}
+
+
+.sayfa-1 .back-img img{
+
+height: 100vh;
+
+}
+
+.sayfa-1 .user-img img{
+    width: 290px;
+    height: 360px;
+}
+
+.sayfa-1 .user-img{
+    
+   
+    position: absolute;
+    top: 225px;
+    left: 140px;
+}
+
+.sayfa-1 .sayfa-text{
+    
+    margin-left: 30px;
+    display: inline-grid;
+    color: #cdc3c3;
+}
+
+.sayfa-1 .sayfa-text h1{
+    font-size: 45px;
+}
+
+
+/* orta sayfa */
+
+
+.metin{
+
+    position: absolute;
+    bottom: -573px;
+    width: 590px;
+    color: #cdc3c3;
+    border: solid;
+    border-color: #cdc3c3;
+    background-color: black;
+    font-size: large;
+    right: 35px;
+    height: 355px;
+    padding: 40px;
+}
+
+.baslik h1{
+
+    color: black;
+    position: absolute;
+    bottom: -180px;
+    left: 25px;
+    font-size: 60px;
+
+}
+
+.iletisim{
+
+    text-align: center;
+
+}
+
+ @media screen and (max-width: 1217px) {
+
+
+    .sayfa-1 .user-img img {
+        width: 290px;
+        height: 360px;
+        margin-left: -120px;
+       
+
+    }
+
+        .sayfa-1 .user-img {
+
+            display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+
+        }
+    
+    
+
+} 
